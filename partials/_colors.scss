@@ -1,37 +1,20 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: 0;
-  }
-  
-  @import "partials/colors";
-  @import "partials/header";
-  @import "partials/layout";
-  
-  body{
-    font-family: 'Sora', sans-serif;
-    width: 100%;
-    height: 100vh;
-    position: relative;
-  
-    background-color: $primary-normal;
-  }
-  
-  button{
-    font-family: 'Sora', sans-serif;
-    cursor: pointer;
-  }
-  
-  svg{
-    width: 100%;
-  }
-  
-  img{ 
-    width: 100%;
-  }
-  
-  a{
-    cursor: pointer;
-    text-decoration: none;
-  }
+
+$primary-normal:#DC9A02;
+$primary-dark: black;
+$primary-light: #F5E1B3;
+
+$secondary-normal: black;
+$secondary-dark: black;
+$secondary-light: black;
+
+$black-normal: black;
+$black-dark:black;
+$black-light: black;
+
+$white-normal: white;
+$white-dark: white;
+$white-light: #fefbff;
+
+$red-normal: #d6961d;
+$red-dark: #d6961d;
+$red-light:#d6961d;
